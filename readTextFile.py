@@ -14,5 +14,5 @@ except IOError, e:
 else:
     # display contents to the screen
     for eachLine in fobj:
-        print eachLine
+        print eachLine,
     fobj.close()

@@ -32,7 +32,7 @@ Enter choice: """
             except (EOFError, KeyboardInterrupt, IndexError):
                 choice = 'q'
 
-            print '\nYou pocket: [%s]' % choice
+            print '\nYou pocked: [%s]' % choice
             if choice not in 'devq':
                 print 'Invalid option, try again'
             else:

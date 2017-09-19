@@ -5,6 +5,7 @@ def showMaxFact(num):
     while count > 1:
         if num % count == 0:
             print 'largest factor of %d is %d' % (num, count)
+
             break
         count -= 1
     else:
